@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local only
+CLAUDE.md
+docs/
+.claude/
+
+# Data and model weights
+data/
+aclImdb/
+aclImdb_v1.tar.gz
+glove*
+*.keras
+*.h5
+*.weights.*
+.DS_Store
